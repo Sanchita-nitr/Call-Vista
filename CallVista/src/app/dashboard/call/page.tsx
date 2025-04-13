@@ -21,7 +21,7 @@ export default function DashboardPage() {
   const handleUpload = async () => {
     setUploading(true);
 
-    // Simulate API response delay with mock data
+    
     setTimeout(() => {
       setAnalysis({
         sentiment: "Positive",
@@ -49,9 +49,9 @@ export default function DashboardPage() {
   ];
 
   const recentCalls = [
-    { id: "001", agent: "John Smith", sentiment: "Negative", duration: "7m 12s" },
-    { id: "002", agent: "Emma Davis", sentiment: "Positive", duration: "5m 40s" },
-    { id: "003", agent: "Michael Lee", sentiment: "Neutral", duration: "6m 05s" },
+    { id: "001", agent: "Ram", sentiment: "Negative", duration: "7m 12s" },
+    { id: "002", agent: "Shyam", sentiment: "Positive", duration: "5m 40s" },
+    { id: "003", agent: "Hari", sentiment: "Neutral", duration: "6m 05s" },
   ];
 
   const colors = {
