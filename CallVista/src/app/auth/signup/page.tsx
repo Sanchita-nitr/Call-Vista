@@ -1,9 +1,8 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { toast } from 'react-toastify'
-import axios from 'axios'
+
 
 const SignupPage = () => {
     const router = useRouter()
@@ -12,7 +11,7 @@ const SignupPage = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPassword, setConfirmPassword] = useState('')
-    const [error, setError] = useState('')
+    const [error] = useState('')
 
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-[#ad2e00] to-[#ad2e00]">

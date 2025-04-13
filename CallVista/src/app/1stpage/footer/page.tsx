@@ -1,19 +1,9 @@
 // Footer.jsx
 "use client";
-import {
-  ChevronUp,
-  Facebook,
-  Globe,
-  Instagram,
-  Mail,
-  MapPin,
-  Phone,
-  Twitter,
-  Youtube,
-} from "lucide-react";
+import { ChevronUp, Globe, Mail, MapPin, Phone } from "lucide-react";
 
-import { FaFacebook,FaInstagram,FaTwitter,FaYoutube  } from "react-icons/fa";
 import { useState } from "react";
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -75,25 +65,25 @@ const Footer = () => {
                 href="#"
                 className="bg-[#5e220c] p-2 rounded-full hover:bg-[#8b4513] transition-colors"
               >
-                <FaFacebook  size={20}/>
+                <FaFacebook size={20} />
               </a>
               <a
                 href="#"
                 className="bg-[#5e220c] p-2 rounded-full hover:bg-[#8b4513] transition-colors"
               >
-                <FaInstagram size={20} /> 
+                <FaInstagram size={20} />
               </a>
               <a
                 href="#"
                 className="bg-[#5e220c] p-2 rounded-full hover:bg-[#8b4513] transition-colors"
               >
-                <FaTwitter size={20}/> 
+                <FaTwitter size={20} />
               </a>
               <a
                 href="#"
                 className="bg-[#5e220c] p-2 rounded-full hover:bg-[#8b4513] transition-colors"
               >
-                <FaYoutube size={20} /> 
+                <FaYoutube size={20} />
               </a>
             </div>
             <div className="flex items-center mb-3">
